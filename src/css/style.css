@@ -1,9 +1,17 @@
+/* position: absolute работает только внутри родительского блока, у которого стоит position: relative */
+/* static, relative, absolute, fixed, inherit */
+/* buttom, top, right, left */
+
 * { /* относится ко всему, что есть на странице */
     box-sizing: border-box;
 }
 
 body {
     background-color: rgb(75, 70, 63);
+}
+
+hr { 
+    margin: 20px;
 }
 
 h4 {
@@ -13,31 +21,17 @@ h4 {
 
 p {
     font-size: 13px;
-
 }
 
-/* img {
-    display: block;
-    margin: 0 auto;
-    width: 300px;
+img {
+    display: inline-block;
+    margin: 10px;
+    width: 250px;
     background-color: rgb(255, 255, 255);
     padding: 5px;
-    border: 3px solid rgb(20, 12, 3); 
-} */
-
-/* .box {
-    display: inline-block;
-    background-color: rgb(63, 38, 10);
-    padding: 5px;
-    border: 3px solid rgb(100, 96, 91);
-    border-width: 3px;
-    border-style: solid;
-    border-color: rgb(100, 96, 91);
-} */
-
-/* position: absolute работает только внутри родительского блока, у которого стоит position: relative */
-/* static, relative, absolute, fixed, inherit */
-/* buttom, top, right, left */
+    border: 3px solid rgb(20, 12, 3);
+    float: right;
+}
 
 .toleonwerth {
     position: relative;
@@ -46,7 +40,7 @@ p {
     background-color: rgb(119, 93, 88);
     padding: 20px;
     border: 3px solid rgb(20, 12, 3);
-    margin: 20px;
+    margin: 5px 20px;
     z-index: 3;
 }
 
@@ -57,22 +51,57 @@ p {
     background-color: rgb(119, 93, 88);
     padding: 20px;
     border: 3px solid rgb(20, 12, 3);
-    margin: 20px;
+    margin: 5px 20px;
     z-index: 3;
 }
 
-.oncewhen .hroznys{
-    position: relative;
-    left: 600px;
-}
-
-/* .hroznys {
-    position: relative;
-    display: block;
-    margin: 0 auto;
-    width: 310px;
+.klobouk {
+    display: inline-block;
+    margin: 10px;
+    width: 250px;
     background-color: rgb(255, 255, 255);
     padding: 5px;
     border: 3px solid rgb(20, 12, 3);
-    
-} */
+    float: left;
+} 
+
+.soilived {
+    position: relative;
+    display: inline-block;
+    width: auto;
+    background-color: rgb(119, 93, 88);
+    padding: 20px;
+    border: 3px solid rgb(20, 12, 3);
+    margin: 5px 20px;
+    z-index: 3;
+}
+
+.nemocnybarashek {
+    display: inline-block;
+    margin: 10px;
+    width: 250px;
+    background-color: rgb(255, 255, 255);
+    padding: 5px;
+    border: 3px solid rgb(20, 12, 3);
+    float: left;
+}
+
+.beran {
+    display: inline-block;
+    margin: 10px;
+    width: 250px;
+    background-color: rgb(255, 255, 255);
+    padding: 5px;
+    border: 3px solid rgb(20, 12, 3);
+    float: right;
+}
+
+.starybaranek {
+    display: inline-block;
+    margin: 10px;
+    width: 250px;
+    background-color: rgb(255, 255, 255);
+    padding: 5px;
+    border: 3px solid rgb(20, 12, 3);
+    float: left;
+}

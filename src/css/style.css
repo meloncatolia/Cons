@@ -1,0 +1,78 @@
+* { /* относится ко всему, что есть на странице */
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(75, 70, 63);
+}
+
+h4 {
+    color: rgb(20, 12, 3);
+    text-align: center;
+}
+
+p {
+    font-size: 13px;
+
+}
+
+/* img {
+    display: block;
+    margin: 0 auto;
+    width: 300px;
+    background-color: rgb(255, 255, 255);
+    padding: 5px;
+    border: 3px solid rgb(20, 12, 3); 
+} */
+
+/* .box {
+    display: inline-block;
+    background-color: rgb(63, 38, 10);
+    padding: 5px;
+    border: 3px solid rgb(100, 96, 91);
+    border-width: 3px;
+    border-style: solid;
+    border-color: rgb(100, 96, 91);
+} */
+
+/* position: absolute работает только внутри родительского блока, у которого стоит position: relative */
+/* static, relative, absolute, fixed, inherit */
+/* buttom, top, right, left */
+
+.toleonwerth {
+    position: relative;
+    display: inline-block;
+    width: auto;
+    background-color: rgb(119, 93, 88);
+    padding: 20px;
+    border: 3px solid rgb(20, 12, 3);
+    margin: 20px;
+    z-index: 3;
+}
+
+.oncewhen {
+    position: relative;
+    display: inline-block;
+    width: auto;
+    background-color: rgb(119, 93, 88);
+    padding: 20px;
+    border: 3px solid rgb(20, 12, 3);
+    margin: 20px;
+    z-index: 3;
+}
+
+.oncewhen .hroznys{
+    position: relative;
+    left: 600px;
+}
+
+/* .hroznys {
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    width: 310px;
+    background-color: rgb(255, 255, 255);
+    padding: 5px;
+    border: 3px solid rgb(20, 12, 3);
+    
+} */
